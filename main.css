@@ -50,3 +50,14 @@ h1 {
 
 .section p {
     margin: 10px 0;
+
+
+    /* 特定の列の幅を指定 */
+th:nth-child(1), td:nth-child(1) {
+    width: 150px;
+}
+
+/* 特定の行の高さを指定 */
+tr:nth-child(2) {
+    height: 50px;
+}
